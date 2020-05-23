@@ -13,7 +13,7 @@ void main()
             sum+=array[i];
         }
         average=sum/n;
-        printf("\nSum = %f\nAverage = %f",sum,average);
+        printf("\nSum = %d\nAverage = %f",sum,average);
    }
         
       
