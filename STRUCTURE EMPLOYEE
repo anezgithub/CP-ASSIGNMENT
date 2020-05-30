@@ -13,7 +13,7 @@ void main()
       {
         printf("\nEmployee %d ",i+1);
         printf("\nEnter Employee Name :");
-        scanf("%[^\n]",&emp[i].name);
+        scanf("%s",emp[i].name);
         printf("\nEnter Employee Id :");
         scanf("%d",&emp[i].emp_id);
         printf("\nEnter Employee Salary :");
