@@ -9,7 +9,7 @@ void main()
           printf("Enter string 2 : ");
           scanf("%s",string2);
           i=strlen(string1);
-          while (string2[j]!= '$') 
+          while (string2[j]!= '\0') 
           { 
               string1[i] = string2[j]; 
               i++; 
