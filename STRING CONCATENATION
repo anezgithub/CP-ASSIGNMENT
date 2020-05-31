@@ -8,7 +8,7 @@ void main()
           scanf("%s",string1);
           printf("Enter string 2 : ");
           scanf("%s",string2);
-          while (string2[j]!= '\0') 
+          while (string1[i]!= '\0') 
           { 
                i++;
           }
